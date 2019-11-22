@@ -5,9 +5,15 @@ VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator", "Calculator", "{8C944C0F-3E1B-4E3F-B403-A507092D6611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core", "Calculator.Core\Calculator.Core.csproj", "{86610913-C34D-4EF4-826B-371A23E19F17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Core", "Calculator.Core\Calculator.Core.csproj", "{86610913-C34D-4EF4-826B-371A23E19F17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Android", "Calculator.Android\Calculator.Android.csproj", "{1DEAB20A-6CDA-4991-A5E7-B60333E7E22D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{A1E98A83-03B6-4CAD-A7E2-80EA82ADF0C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial.Core", "Factorial.Core\Factorial.Core.csproj", "{DB9DAC27-EE3A-4C4D-B37A-4268ADF840CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Android", "Factorial.Android\Factorial.Android.csproj", "{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +31,25 @@ Global
 		{1DEAB20A-6CDA-4991-A5E7-B60333E7E22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEAB20A-6CDA-4991-A5E7-B60333E7E22D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1DEAB20A-6CDA-4991-A5E7-B60333E7E22D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB9DAC27-EE3A-4C4D-B37A-4268ADF840CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9DAC27-EE3A-4C4D-B37A-4268ADF840CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9DAC27-EE3A-4C4D-B37A-4268ADF840CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9DAC27-EE3A-4C4D-B37A-4268ADF840CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86610913-C34D-4EF4-826B-371A23E19F17} = {8C944C0F-3E1B-4E3F-B403-A507092D6611}
+		{1DEAB20A-6CDA-4991-A5E7-B60333E7E22D} = {8C944C0F-3E1B-4E3F-B403-A507092D6611}
+		{DB9DAC27-EE3A-4C4D-B37A-4268ADF840CE} = {A1E98A83-03B6-4CAD-A7E2-80EA82ADF0C6}
+		{5FD03C56-1834-4C1D-AA97-F8563D1C2D1C} = {A1E98A83-03B6-4CAD-A7E2-80EA82ADF0C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB11F3FF-E498-4F29-9738-43FBF96A3300}
