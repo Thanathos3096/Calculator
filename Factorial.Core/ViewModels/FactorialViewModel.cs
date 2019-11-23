@@ -1,10 +1,6 @@
 ﻿using Factorial.Core.Services;
 using MvvmCross.Commands;
-using MvvmCross.Presenters.Hints;
 using MvvmCross.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -23,18 +19,18 @@ namespace Factorial.Core.ViewModels
             _factorialService = factorialService;
         }
 
-        public int N 
-        { 
-            get=> _n; 
-            set=> SetProperty(ref _n,value); 
+        public int N
+        {
+            get => _n;
+            set => SetProperty(ref _n, value);
         }
 
-        public double Result 
-        { 
+        public double Result
+        {
 
-          get=> _result; 
-          set=>SetProperty(ref _result,value);
-            
+            get => _result;
+            set => SetProperty(ref _result, value);
+
         }
 
         public ICommand CalculateCommand
@@ -47,7 +43,7 @@ namespace Factorial.Core.ViewModels
         }
         public async override Task Initialize()
         {
-            await  base.Initialize();
+            await base.Initialize();
             N = 0;
             Calculate();
         }
